@@ -1,0 +1,23 @@
+{
+  "name": "trbc_event_ical_parser",
+  "version": "1.0.0",
+  "description": "An ICal parser for use with AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btassone/trbc_event_ical_parser.git"
+  },
+  "author": "Brandon Tassone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btassone/trbc_event_ical_parser/issues"
+  },
+  "homepage": "https://github.com/btassone/trbc_event_ical_parser#readme",
+  "dependencies": {
+    "ical.js": "^1.2.2",
+    "request": "^2.81.0"
+  }
+}
